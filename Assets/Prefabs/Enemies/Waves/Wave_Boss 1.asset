@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e0f41d5a27daad49a0d93010e96dbfa, type: 3}
+  m_Name: Wave_Boss 1
+  m_EditorClassIdentifier: 
+  EnemyPrefab: {fileID: 1971393880508782, guid: 56b5224083b50894a8df3c49f9cf5d70,
+    type: 2}
+  PathPrefab: {fileID: 1106137139534900, guid: 12a58cf141ed25e4d83b15190f23abed, type: 2}
+  TimeBetweenWaves: 120
+  SpawnRandomFactor: 0
+  NumberOfEnemies: 1
+  MoveSpeed: 3
+  RepeatPathing: 1
+  ReversePath: 0
+  IsBoss: 1

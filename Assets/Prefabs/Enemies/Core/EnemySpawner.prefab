@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1989126878150450}
+  m_IsPrefabAsset: 1
+--- !u!1 &1989126878150450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4337124561521788}
+  - component: {fileID: 114714078875764642}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4337124561521788
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1989126878150450}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114714078875764642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1989126878150450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54361531e313ecd41ad4613a0282cbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AllWavesConfiguration:
+  - {fileID: 11400000, guid: e3e4ef7a01f97334bad3db9aec0dbb45, type: 2}
+  - {fileID: 11400000, guid: 1a48b454b0bb1b74ca833f547b6d4410, type: 2}
+  - {fileID: 11400000, guid: 350c4ddca3f8a5d44a7f7e8fb8af5217, type: 2}
+  - {fileID: 11400000, guid: 1fad04b8e94821d4a842573705256c5d, type: 2}
+  - {fileID: 11400000, guid: 2b5cc37b96de9184cbcc2f16536b17e6, type: 2}
+  - {fileID: 11400000, guid: 528214bca482c8748a10922f4e0541f1, type: 2}
+  - {fileID: 11400000, guid: 6ea6f58d65d9632438448313ccff954c, type: 2}
+  - {fileID: 11400000, guid: df4cd09ba4585174c92fc41a685c7e09, type: 2}
+  - {fileID: 11400000, guid: f1f9cc1092fc85e4fa8646e1bcdcd797, type: 2}
+  - {fileID: 11400000, guid: e3b45e5163be1d543b1c453a0bb12322, type: 2}
+  - {fileID: 11400000, guid: 0d9ee68e6398bac449bd3213cab2d790, type: 2}
+  - {fileID: 11400000, guid: 919cf00beea6a664d97ab726e842df48, type: 2}
+  - {fileID: 11400000, guid: a9f0baac822860f43b55669de2f61ac1, type: 2}
+  - {fileID: 11400000, guid: 69edc818fc05d2946bba918eb0667a2e, type: 2}
+  - {fileID: 11400000, guid: 164273aa8f694924882655ec1cfbee8c, type: 2}
+  - {fileID: 11400000, guid: 4006c67d2f5101046a34eef0387c92ba, type: 2}
+  - {fileID: 11400000, guid: 337038224eb2c994792c92d1d429b80d, type: 2}
+  - {fileID: 11400000, guid: 6904c0b800c39ae488c4e96e7e03f5d4, type: 2}
+  - {fileID: 11400000, guid: 889420af0c3aedb46bc9d6648eb59c25, type: 2}
+  - {fileID: 11400000, guid: 6620ba9eb5963e54c996bd32868ebe97, type: 2}
+  AllEnemiesConfiguration:
+  - {fileID: 1059142292398496, guid: 0bb7c9957cd7d6e43ba9be337bb72b8e, type: 2}
+  - {fileID: 1606311904772394, guid: ae61a6091192d184da9697bb6f4033be, type: 2}
+  - {fileID: 1364103783255664, guid: 300bce2eccfa32548bdde3829dc9e01d, type: 2}
+  - {fileID: 1169595619526366, guid: e38482de22562a4489dc8a59498b9b66, type: 2}
+  - {fileID: 1598728651124888, guid: fd093d6f6f8f16d449806e9978041d89, type: 2}
+  - {fileID: 1060109143925804, guid: 55dd72040840b86448f7202dc1e22eab, type: 2}
+  - {fileID: 1152988237727878, guid: ba7e0bacf465bd84eb7f2513dd1240a9, type: 2}
+  - {fileID: 1226359752535730, guid: f567e7a7ad91fad4b8f43fcb65f256df, type: 2}
+  - {fileID: 1899395189629430, guid: 65ab2852ece1b134ebf7b7a3be46f2a3, type: 2}
+  - {fileID: 1849233983414290, guid: 2e4ba47e9427c004da0c81c6a32f9ff8, type: 2}
+  - {fileID: 1963665060498554, guid: 56a73abf2d94881408de2fec3a9a056c, type: 2}
+  - {fileID: 1508103011184452, guid: 9b7c6a8ffc8b78b478215230234e3ecc, type: 2}
+  - {fileID: 1862457270507128, guid: 6ae3f6e888c912e47aeb755870ad24b1, type: 2}
+  - {fileID: 1674852873452706, guid: 1cf9e3cb489162d4cb92a868a1ee78a7, type: 2}
+  - {fileID: 1148796526674024, guid: 2073deac0b8672948be8c019225f2a11, type: 2}
+  AllVortexConfiguration:
+  - {fileID: 1075268336114098, guid: 11fbd43ab387d7845b12aa709fc6a115, type: 2}
+  - {fileID: 1429005549544636, guid: 0a7da198f3e50b24b8126f308642143c, type: 2}
+  - {fileID: 1182863691067974, guid: 006eaab35b9230a4b9cf0af77a8e8099, type: 2}
+  VortexSpawnRate: 100
+  PlayerRank: {fileID: 0}
+  SpawnDone: 0

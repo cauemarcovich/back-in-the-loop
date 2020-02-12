@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1726685840740154}
+  m_IsPrefabAsset: 1
+--- !u!1 &1726685840740154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4533875795037542}
+  - component: {fileID: 114655817814285428}
+  m_Layer: 0
+  m_Name: EnergySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4533875795037542
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726685840740154}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114655817814285428
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726685840740154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7504522017ca57f44ac9677ed35fb3f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droprate: 10
+  drops:
+  - energy: {fileID: 1160021801232204, guid: 1ab8403bf847d4a48a317af3708d9d9b, type: 2}
+    droprate: 60
+  - energy: {fileID: 1252278131636656, guid: 0cc3adeca4299ff4c9f8f1aea0d71b8c, type: 2}
+    droprate: 30
+  - energy: {fileID: 1622164691907752, guid: 19a6187ff95a75a49b605b2aeb01aac2, type: 2}
+    droprate: 10
